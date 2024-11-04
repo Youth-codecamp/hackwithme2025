@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+
+  .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem 2rem;
+    color: #222D39;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .logo-container .logo {
+    width: 61px;
+    height: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+  }
+  
+  .nav-links a {
+    color: #222D39;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #4EB8B9;
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon {
+    width: 25px;
+    height: 2px;
+    background-color: #222D39;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .hamburger-icon::before,
+  .hamburger-icon::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: #222D39;
+    transition: transform 0.3s ease;
+  }
+  
+  .hamburger-icon::before {
+    transform: translateY(-8px);
+  }
+  
+  .hamburger-icon::after {
+    transform: translateY(8px);
+  }
+  
+  .hamburger-icon.open {
+    background-color: transparent;
+  }
+  
+  .hamburger-icon.open::before {
+    transform: rotate(45deg) translateY(0);
+  }
+  
+  .hamburger-icon.open::after {
+    transform: rotate(-45deg) translateY(0);
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: #faefdd;
+      flex-direction: column;
+      padding: 1rem 0;
+      gap: 1rem;
+      align-items: center;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .nav-links a {
+      font-size: 1.2rem;
+      padding: 0.5rem 0;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  
