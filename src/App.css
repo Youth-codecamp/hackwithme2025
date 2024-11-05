@@ -1,0 +1,11 @@
+:root{
+    --primary-color:#222D39;
+    --secondary-color: #4EB8B9;
+}
+
+@font-face {
+    font-family: 'Ponari';
+    src: url('./fonts/Ponari.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

@@ -10,7 +10,7 @@
     top: 0;
     z-index: 1000;
     padding: 1rem 2rem;
-    color: #222D39;
+    color: var(--primary-color);
   }
   
   .navbar {
@@ -33,14 +33,14 @@
   }
   
   .nav-links a {
-    color: #222D39;
+    color: var(--primary-color);
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s;
   }
   
   .nav-links a:hover {
-    color: #4EB8B9;
+    color: var(--secondary-color);
   }
   
   .hamburger {
@@ -51,7 +51,7 @@
   .hamburger-icon {
     width: 25px;
     height: 2px;
-    background-color: #222D39;
+    background-color:var(--primary-color);
     position: relative;
     transition: transform 0.3s ease;
   }
@@ -62,7 +62,7 @@
     position: absolute;
     width: 25px;
     height: 2px;
-    background-color: #222D39;
+    background-color: var(--primary-color);
     transition: transform 0.3s ease;
   }
   
