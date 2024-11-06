@@ -3,3 +3,6 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #faefdd;
 }
+html{
+  scroll-behavior: smooth;
+}
