@@ -6,11 +6,11 @@
 
   .header {
     width: 100%;
-    position: fixed;
     top: 0;
     z-index: 1000;
     padding: 1rem 2rem;
     color: var(--primary-color);
+    position: fixed;
   }
   
   .navbar {

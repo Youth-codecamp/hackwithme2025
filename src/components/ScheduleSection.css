@@ -1,0 +1,125 @@
+.schedule-container {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+    font-family: 'Ponari';
+    font-size: 2em;
+  }
+  
+  .schedule_subtitle {
+    color: var(--primary-color);
+    margin-top: 50px;
+    border-bottom: 3px solid var(--secondary-color);
+    padding-bottom: 15px;
+    font-family: 'Ponari';
+    font-size: 1.6em;
+  }
+  
+  .event-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    border-left: 6px solid var(--secondary-color);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 600px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card:hover {
+    transform: scale(1.03);
+  }
+  
+  time {
+    font-weight: bold;
+    color: var(--secondary-color);
+    font-size: 1.2em;
+    margin-bottom: 8px;
+  }
+  
+  h3 {
+    margin: 10px 0 0;
+    color: var(--primary-color);
+    font-size: 1.1em;
+    line-height: 1.4em;
+  }
+  
+  @media (max-width: 992px) {
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 25px;
+    }
+  
+    .schedule_subtitle {
+      font-size: 1.5em;
+    }
+  
+    .event-card {
+      padding: 18px;
+    }
+  
+    time {
+      font-size: 1.1em;
+    }
+  
+    h3 {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.6em;
+    }
+  
+    .schedule_subtitle {
+      font-size: 1.4em;
+    }
+  
+    .event-card {
+      padding: 15px;
+    }
+  
+    time {
+      font-size: 1em;
+      min-width: 90px;
+    }
+  
+    h3 {
+      font-size: 0.95em;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 1.4em;
+    }
+  
+    .schedule_subtitle {
+      font-size: 1.3em;
+    }
+  
+    .event-card {
+      padding: 12px;
+    }
+  
+    time {
+      font-size: 0.95em;
+    }
+  
+    h3 {
+      font-size: 0.9em;
+    }
+  }
+  

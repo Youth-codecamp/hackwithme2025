@@ -25,6 +25,7 @@
     color: var(--primary-color);
     margin-top: 1rem;
     text-transform: uppercase;
+    font-family: var(--primary-font);
 }
 
 .hero-info {
