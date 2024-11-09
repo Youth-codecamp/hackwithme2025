@@ -21,8 +21,7 @@ function Header() {
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
           <li><a href="#about" onClick={toggleMenu}>About</a></li>
           <li><a href="#schedule" onClick={toggleMenu}>Schedule</a></li>
-          <li><a href="#sponsors" onClick={toggleMenu}>Sponsors</a></li>
-          <li><a href="#faq" onClick={toggleMenu}>FAQ</a></li>
+          <li><a href="#partners" onClick={toggleMenu}>Partners</a></li>
           <li><a href="#donate" onClick={toggleMenu}>Donate</a></li>
           <li><a href="#register" onClick={toggleMenu}>Register</a></li>
         </ul>

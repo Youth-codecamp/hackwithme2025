@@ -4,6 +4,8 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import About from './components/About';
 import ScheduleSection from './components/ScheduleSection';
+import Partners from './components/Partners';
+import GhostBot from './components/GhostBot';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <HeroSection />
       <About />
       <ScheduleSection />
+      <Partners />
+      <GhostBot />
     </div>
   );
 }
