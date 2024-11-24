@@ -19,7 +19,8 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 0.5 }}
       >
-        Hack With Me 2025 is a fun and exciting 24-hour hackathon for high school students! During this event, students will work in teams on projects and learn coding together. It’s a great chance to turn ideas into reality, tackle real-world challenges, and improve coding skills. Join us for a fantastic experience filled with teamwork, creativity, and the opportunity to make a positive impact!
+        Hack With Me is a yearly, 24-hour hackathon for high school students that always takes place on **August 16th**. It’s a space where students come together to create exciting projects, solve real-world problems, and build their coding skills in a fun and collaborative environment. 
+We believe Hack With Me should be accessible to everyone. That’s why anyone can host their own Hack With Me hackathon in their community. Together, we can make this a global movement! 
       </motion.p>
     </section>
   );
