@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+## What is Hack With Me?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hack With Me is a yearly, 24-hour coding hackathon for high school students that happens on August 16th. Students join to create projects, solve problems, and improve their coding skills.
 
-## Available Scripts
+The goal of Hack With Me is to make hackathons accessible to everyone. That’s why anyone can organize their own Hack With Me event in their community.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Purpose of Hack With Me
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The purpose of Hack With Me is to make hackathons easy to join for students everywhere. By allowing high school students to organize it in their communities, we can:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Inspire more students to try coding.
+- Bring coding opportunities to more places around the world.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How Can You Get Involved?
 
-### `npm run build`
+There are many ways to be part of Hack With Me:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. **Host a Hack With Me Event**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you’re passionate about coding and want to bring students together, you can organize a Hack With Me event in your community. As an organizer, you will:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Pick a venue in your area.
+- Plan the activities for the 24-hour hackathon.
+- Use the name **Hack With Me [Your Location]** for your event.
 
-### `npm run eject`
+### 2. **Join as a Participant**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Are you a high school student who loves building cool projects? Join a Hack With Me event near you! You’ll get to team up with others, learn new skills, and turn your ideas into reality.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. **Become a Mentor**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Are you experienced in coding or project development? Share your knowledge with students as they work on their projects. Mentors play an important role in guiding participants and helping them succeed.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 4. **Support as a Sponsor**
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sponsors are key to making Hack With Me events successful. Whether it’s through funding, tools, or resources, your support helps inspire the next generation of coders.
