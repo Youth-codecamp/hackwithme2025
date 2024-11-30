@@ -19,8 +19,8 @@ const About = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 0.5 }}
       >
-        Hack With Me is a yearly, 24-hour hackathon for high school students that always takes place on August 16th. It’s a space where students come together to create exciting projects, solve real-world problems, and build their coding skills in a fun and collaborative environment. 
-We believe Hack With Me should be accessible to everyone. That’s why anyone can host their own Hack With Me hackathon in their community. Together, we can make this a global movement! 
+       Hack With Me is a yearly, 24-hour coding hackathon for high school students that happens on August 16th. Students join to create projects, solve problems, and improve their coding skills.
+       The goal of Hack With Me is to make hackathons accessible to everyone. That’s why anyone can organize their own Hack With Me event in their community.
       </motion.p>
     </section>
   );

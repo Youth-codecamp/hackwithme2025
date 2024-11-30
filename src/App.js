@@ -6,6 +6,7 @@ import About from './components/About';
 import ScheduleSection from './components/ScheduleSection';
 import Partners from './components/Partners';
 import GhostBot from './components/GhostBot';
+import Involvement from './components/Involvement';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <HeroSection />
       <About />
+      <Involvement />
       <ScheduleSection />
       <Partners />
       <GhostBot />

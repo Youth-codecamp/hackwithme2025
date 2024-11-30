@@ -1,0 +1,183 @@
+.involvement-section {
+    background-image: url('../assets/aboutbg2.png');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .section-title {
+    font-size: 2em;
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+    font-family: 'Ponari';
+  }
+  
+  .section-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .involvement-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .involvement-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 1.6rem;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+    font-family: 'Ponari';
+    font-weight: bold;
+  }
+  
+  .card-description {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 20px;
+    text-align: left;
+    color: #555;
+  }
+  
+  .card-list li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 22px;
+  }
+  
+  .card-list li::before {
+    content: "\2022";
+    color: #4EB8B9;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #4EB8B9;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background-color: #3a9494;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card .btn {
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 1024px) {
+    .section-title {
+      font-size: 2.2rem;
+    }
+  
+    .section-description {
+      font-size: 1.1rem;
+    }
+  
+    .card {
+      padding: 20px;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+      padding: 10px 18px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+      padding: 10px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section-title {
+      font-size: 1.8rem;
+    }
+  
+    .section-description {
+      font-size: 1rem;
+    }
+  
+    .card-title {
+      font-size: 1.4rem;
+    }
+  
+    .card-description {
+      font-size: 0.95rem;
+    }
+  
+    .card {
+      padding: 15px;
+    }
+  
+    .btn {
+      font-size: 0.85rem;
+      padding: 8px 12px;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
