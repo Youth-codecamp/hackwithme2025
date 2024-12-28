@@ -10,7 +10,7 @@ const GhostBot = () => {
   const [input, setInput] = useState('');
 
   const keywordResponses = [
-    { keywords: ['who', 'join'], response: "Anyone with a passion for coding is welcome! You'll need basic programming skills to participate." },
+    { keywords: ['who', 'join'], response: "High school students with a passion for coding are welcome! You'll need basic programming skills to participate." },
     { keywords: ['date', 'when', 'event'], response: "Hack With Me will take place on August 16th, 2025. Mark your calendar!" },
     { keywords: ['parent', 'guide'], response: "For parents, rest assured, Hack With Me is a safe and supportive environment for young coders." },
     { keywords: ['hi', 'hello'], response: "Hello there! How can I help you today?" },
@@ -19,7 +19,8 @@ const GhostBot = () => {
     { keywords: ['location', 'where', 'venue'], response: "The venue is not yet confirmed. Please check back for updates soon!" },
     { keywords: ['projects', 'build'], response: "You can build web apps, mobile apps, or chatbots that help solve real-life problems!" },
     { keywords: ['founder', 'who created'], response: "Hack With Me was founded by Shyaka Chaste to help students learn and create together!" },
-    { keywords: ['what', 'Hack With Me'], response: "Hack With Me 2025 is a fun and exciting 24-hour hackathon for high school students! During this event, students will work in teams on projects and learn coding together." }
+    { keywords: ['what', 'Hack With Me'], response: "Hack With Me is a yearly, 24-hour coding hackathon for high school students that happens on August 16th. Students join to create projects, solve problems, and improve their coding skills." },
+    { keywords: ['prizes', 'awards'], response: "Prizes for Hack With Me will be announced shortly before the event starts. Stay tuned for updates!" },
   ];
 
 
