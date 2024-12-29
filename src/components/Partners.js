@@ -1,7 +1,6 @@
 import React from 'react';
 import './Partners.css';
 import { motion } from 'framer-motion';
-import hackclubLogo from '../assets/hackclub.png';
 import codecraftersLogo from '../assets/codecrafters.png';
 import axureLogo from '../assets/axure.png';
 
