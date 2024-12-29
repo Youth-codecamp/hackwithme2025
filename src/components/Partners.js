@@ -7,9 +7,8 @@ import axureLogo from '../assets/axure.png';
 
 const Partners = () => {
   const partners = [
-    { id: 1, logo: hackclubLogo, alt: 'Hackclub', link: 'https://hackclub.com' },
-    { id: 2, logo: codecraftersLogo, alt: 'Codecrafters', link: 'https://codecrafters.io/' },
-    { id: 3, logo: axureLogo, alt: 'Axure', link: 'https://www.axure.com/' },
+    { id: 1, logo: codecraftersLogo, alt: 'Codecrafters', link: 'https://codecrafters.io/' },
+    { id: 2, logo: axureLogo, alt: 'Axure', link: 'https://www.axure.com/' },
   ];
 
   return (
