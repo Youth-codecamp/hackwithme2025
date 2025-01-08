@@ -9,7 +9,7 @@ const HeroSection = () => {
       <p className="hero-info">📅 Date: August 16th, 2025,📍Venue: Coming Soon</p>
       <div className="hero-buttons">
         <a href="/register" className="hero-button">Register Now</a>
-        <a href="/" className="hero-button">Donate Now</a>
+        <a href="/donate" className="hero-button">Donate Now</a>
       </div>
     </section>
   );

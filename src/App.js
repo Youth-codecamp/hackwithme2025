@@ -9,6 +9,7 @@ import Partners from './components/Partners';
 import GhostBot from './components/GhostBot';
 import Footer from './components/Footer';
 import RegisterRedirect from './components/RegisterRedirect';
+import DonateRedirect from './components/DonateRedirect';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             }
           />
           <Route path="/register" element={<RegisterRedirect />} />
+          <Route path="/donate" element={<DonateRedirect />} />
         </Routes>
         <GhostBot />
         <Footer />

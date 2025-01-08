@@ -7,9 +7,6 @@
     padding: 4rem 2rem;
     color: var(--primary-color);
     min-height: 100vh;
-    background-image: url('../assets/aboutbg2.png');
-    background-size: cover;
-    background-position: center;
 }
 
 .hero-title {

@@ -1,9 +1,6 @@
 .about-page {
     padding: 40px 20px;
-    text-align: center;
-    background-image: url('../assets/aboutbg2.png');
-    background-size: cover;
-    background-position: center;
+    text-align: center;    
     color: var(--primary-color);
     min-height: 100vh;
     display: flex;

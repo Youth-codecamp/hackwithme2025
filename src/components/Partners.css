@@ -1,14 +1,8 @@
 .partners-section {
     padding: 50px 20px;
-    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Phantom Sans', sans-serif;
-    background-image: url('../assets/aboutbg2.png');
-    background-size: cover;
-    background-position: center;
-    font-family: 'Phantom Sans';
   }
   
   .partners-title {

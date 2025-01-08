@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Header.css';
-import logo from '../assets/logo.png';
+import logo from '../assets/favicon.ico';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -68,7 +68,7 @@ function Header() {
             </a>
           </li>
           <li>
-            <Link to="/" onClick={toggleMenu}>
+            <Link to="/donate" onClick={toggleMenu}>
               Donate
             </Link>
           </li>
