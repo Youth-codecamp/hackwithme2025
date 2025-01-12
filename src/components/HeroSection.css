@@ -7,6 +7,8 @@
     padding: 4rem 2rem;
     color: var(--primary-color);
     min-height: 100vh;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-title {
@@ -36,6 +38,7 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+    gap: 1rem;
 }
 
 .hero-button {
@@ -46,14 +49,12 @@
     border-radius: 5px;
     text-decoration: none;
     font-size: 1.2rem;
-    margin: 0 1rem;
     transition: background-color 0.3s ease;
 }
 
 .hero-button:hover {
     background-color: #4cb9c5;
 }
-
 
 @media (max-width: 768px) {
     .hero-title {
@@ -68,9 +69,16 @@
         font-size: 1rem;
     }
 
+    .hero-buttons {
+        flex-direction: column;
+    }
+
     .hero-button {
+        width: 100%;
+        max-width: 300px;
         font-size: 1rem;
-        padding: 0.8rem 1.5rem;
+        padding: 0.8rem 1rem;
+        text-align: center;
     }
 }
 
@@ -89,6 +97,6 @@
 
     .hero-button {
         font-size: 0.9rem;
-        padding: 0.6rem 1.2rem;
+        padding: 0.6rem 1rem;
     }
 }
