@@ -30,11 +30,62 @@
 
 @media (max-width: 768px) {
   .about-title {
-      font-size: 2.5rem;
+    font-size: 2.5rem;
   }
 
   .about-paragraph {
-      font-size: 1rem;
-      padding: 0 10px;
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}
+
+
+.spots-container {
+  margin-top: 30px;
+  padding: 20px;
+  border: 3px solid var(--secondary-color);
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Ponari', sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.spots-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+}
+
+.spots-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .spots-container {
+    max-width: 100%;
+  }
+
+  .spots-title {
+    font-size: 1.5rem;
+  }
+
+  .spots-number {
+    font-size: 2.5rem;
   }
 }

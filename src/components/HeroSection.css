@@ -19,6 +19,25 @@
     font-weight: bold;
 }
 
+.hero-logo {
+    width: 150px;
+    height: auto;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .hero-logo {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-logo {
+        width: 100px;
+    }
+}
+
+
 .hero-subtitle {
     font-size: 2rem;
     color: var(--primary-color);
