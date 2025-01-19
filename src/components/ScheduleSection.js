@@ -98,23 +98,44 @@ const ScheduleSection = () => {
         </div>
         
         <div className="event-card">
-          <time>8:00 AM - 10:00 AM</time>
+          <time>8:00 AM - 11:00 AM</time>
           <div>
-            <h3>Coding Session #2 & Project Wrap-Up</h3>
+            <h3>Coding Session #2</h3>
           </div>
         </div>
         
         <div className="event-card">
-          <time>10:00 AM - 11:30 AM</time>
+          <time>11:00 AM - 12:00 AM</time>
           <div>
             <h3>Presentation Prep & Practice</h3>
           </div>
         </div>
         
         <div className="event-card">
-          <time>11:30 AM - 4:30 PM</time>
+          <time>12:00 AM - 1:00 PM</time>
           <div>
-            <h3>Project Presentations & Judging</h3>
+            <h3>Project Presentations #1</h3>
+          </div>
+        </div>
+
+        <div className="event-card">
+          <time>1:00 AM - 2:00 PM</time>
+          <div>
+            <h3>Lunch Break</h3>
+          </div>
+        </div>
+
+        <div className="event-card">
+          <time>2:00 AM - 4:00 PM</time>
+          <div>
+            <h3>Project Presentations #2</h3>
+          </div>
+        </div>
+
+        <div className="event-card">
+          <time>4:00 AM - 4:30 PM</time>
+          <div>
+            <h3>Judging</h3>
           </div>
         </div>
         
