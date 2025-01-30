@@ -4,12 +4,14 @@ import { motion } from 'framer-motion';
 import codecraftersLogo from '../assets/codecrafters.png';
 import axureLogo from '../assets/axure.png';
 import techinikaLogo from '../assets/techinika.png';
+import cakelogo from '../assets/interviewcake.png';
 
 const Partners = () => {
   const partners = [
     { id: 1, logo: codecraftersLogo, alt: 'Codecrafters', link: 'https://codecrafters.io/' },
     { id: 2, logo: techinikaLogo, alt: 'Techinika', link: 'https://techinika.co.rw/' },
     { id: 3, logo: axureLogo, alt: 'Axure', link: 'https://www.axure.com/' },
+    { id: 4, logo: cakelogo, alt: 'Axure', link: 'https://www.interviewcake.com/' },
   ];
 
   return (
